@@ -1,0 +1,26 @@
+#N canvas 953 0 958 988 12;
+#X obj 413 197 adc~;
+#X obj 399 86 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 409 255 /~;
+#X obj 150 179 readsf~;
+#X msg 122 123 open piano.wav;
+#X msg 235 130 1;
+#X msg 282 138 0;
+#X obj 412 359 dac~ 1 2;
+#X obj 175 358 dac~ 3 4;
+#X obj 235 255 /~;
+#X msg 264 202 2;
+#X msg 470 204 2;
+#X connect 0 0 2 0;
+#X connect 1 0 11 0;
+#X connect 2 0 7 0;
+#X connect 2 0 7 1;
+#X connect 3 0 9 0;
+#X connect 4 0 3 0;
+#X connect 5 0 3 0;
+#X connect 6 0 3 0;
+#X connect 9 0 7 0;
+#X connect 9 0 7 1;
+#X connect 10 0 9 1;
+#X connect 11 0 2 1;
