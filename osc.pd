@@ -1,13 +1,15 @@
-#N canvas 1468 619 450 300 12;
+#N canvas 1213 610 450 300 12;
 #X obj 111 133 osc~;
 #X obj 111 180 *~;
 #X obj 106 227 dac~;
 #X floatatom 108 100 5 0 0 0 - - -;
 #X obj 56 -27 vsl 15 100 0 1000 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 2500 1;
-#X obj 239 -16 vsl 15 100 0 1 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 2200 1;
+#X obj 239 -16 vsl 15 100 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 3600 1;
 #X floatatom 239 120 5 0 0 0 - - -;
+#X text 290 34 gain;
+#X text 85 33 frequency;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 2 1;
