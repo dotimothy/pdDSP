@@ -6,14 +6,14 @@
 #X obj 428 263 *~;
 #X obj 543 90 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 9900 1;
-#X floatatom 469 208 5 0 0 0 - - -;
+#X floatatom 467 217 5 0 0 0 - - -;
 #X obj 377 373 /~;
 #X obj 454 374 /~;
 #X obj 293 425 env~;
 #X obj 497 421 env~;
 #X floatatom 499 457 5 0 0 0 - - -;
 #X floatatom 292 459 5 0 0 0 - - -;
-#X msg 405 338 50;
+#X msg 405 338 100;
 #X connect 0 0 1 0;
 #X connect 0 1 4 0;
 #X connect 1 0 7 0;
