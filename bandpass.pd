@@ -1,10 +1,10 @@
-#N canvas -7 0 1278 1348 12;
+#N canvas 580 329 730 485 12;
 #X obj 404 47 adc~;
 #X obj 386 431 dac~;
 #X obj 303 330 bp~;
 #X obj 319 188 *~;
 #X obj 613 17 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 9900 1;
+-1 -1 0 1;
 #X floatatom 379 141 5 0 0 0 - - -;
 #X obj 428 185 *~;
 #X obj 321 245 /~;
@@ -13,12 +13,12 @@
 #X floatatom 340 295 5 0 0 0 - - -;
 #X floatatom 403 294 5 0 0 0 - - -;
 #X obj 181 101 vsl 15 200 0 2000 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3500 1;
+-1 -1 0 1;
 #X text 515 78 gain factor;
 #X text 290 7 simple band pass filter implementation;
 #X text 33 170 center frequency;
 #X obj 566 159 vsl 15 100 0 20 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 2300 1;
+-1 -1 0 1;
 #X text 477 246 Q Factor;
 #X msg 375 205 100;
 #X connect 0 0 3 0;
