@@ -1,11 +1,11 @@
-#N canvas 1359 261 461 463 12;
+#N canvas 558 223 461 463 12;
 #X obj 212 123 adc~;
 #X obj 177 189 *~;
 #X text 324 142 factor of gain;
 #X obj 182 423 dac~ 1 2;
 #X obj 227 189 *~;
 #X obj 346 20 vsl 15 100 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 9900 1;
 #X floatatom 266 143 5 0 0 0 - - -;
 #X obj 176 299 /~;
 #X obj 253 300 /~;
@@ -13,7 +13,7 @@
 #X obj 296 347 env~;
 #X floatatom 298 383 5 0 0 0 - - -;
 #X floatatom 91 385 5 0 0 0 - - -;
-#X msg 204 264 100;
+#X msg 204 264 200;
 #X connect 0 0 1 0;
 #X connect 0 1 4 0;
 #X connect 1 0 7 0;
