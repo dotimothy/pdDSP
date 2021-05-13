@@ -13,7 +13,7 @@
 #X obj 296 347 env~;
 #X floatatom 298 383 5 0 0 0 - - -;
 #X floatatom 91 385 5 0 0 0 - - -;
-#X msg 204 264 200;
+#X msg 204 264 50;
 #X connect 0 0 1 0;
 #X connect 0 1 4 0;
 #X connect 1 0 7 0;
